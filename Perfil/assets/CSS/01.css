@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.topo {
+    background-image: url(/assets/CSS/imagens/code-2434271-1200x480.jpg);
+    /*background-color: rgb(204, 204, 204);*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(208, 209, 209);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#tudo{
+    /*background-color: rgb(207, 207, 207);*/ 
+    background-color : rgba(208, 209, 209, 0.75);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.747);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    
+}
+
+#menu{
+
+    position: fixed;
+    width:100%;
+    z-index: 9; 
+    width: 100%;
+    margin-right: 250px;
+    background-color: rgb(8, 8, 8,0.8);
+
+}
+#center {
+    height: 150px;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    position: auto;
+    margin-left: 80px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.747);
+    margin-top: 40px;
+}
+
+#name{
+    font-size: 20px;
+    color: black;
+    /*text-shadow: 2px 0px 0px rgb(0, 0, 0), 
+                 -2px 0px 0px rgb(0, 0, 0), 
+                 0px 2px 0px rgb(0, 0, 0), 
+                 0px -2px 0px rgb(0, 0, 0);;*/
+    margin-top: 20px;
+}
+
+@font-face{
+    font-family: 'FonteMotivo';
+    src: url(/assets/CSS/fontes/Roboto-Medium.ttf);
+}
+
+#motivo{
+    font-size: 18px;
+    color: black;
+    font-family: 'FonteMotivo';
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#imag {
+    position: center top;
+    /*background-image: url(/pequeno.png);*/
+    margin-left: auto;
+    margin-right: auto;
+    /*box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.747);
+    border-radius: 10px;
+    margin-bottom: 100px;*/
+    height: 300px;
+    
+    max-width: 350px;
+    max-height: 350px;
+    
+    
+}
+
+#redes1{
+
+    height: 40px;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    position: auto;
+    margin-left: 98px;
+    margin-top: 20px;
+    
+}
+
+#redes2{
+
+    height: 45px;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    position: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+#cartaobio{
+    /*box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.747);
+    border-radius: 10px;
+    margin-bottom: 100px;*/
+    margin-top: 50px;
+
+}
+
+@font-face{
+    font-family: 'FonteBio';
+    src: url(/assets/CSS/fontes/Roboto-Thin.ttf)
+}
+
+#bio {
+    
+    font-family: 'FonteBio';
+    font-size: 30px;
+    color: black;
+    /*text-shadow: 2px 0px 0px rgb(0, 0, 0), 
+                 -2px 0px 0px rgb(0, 0, 0), 
+                 0px 2px 0px rgb(0, 0, 0), 
+                 0px -2px 0px rgb(0, 0, 0);;*/
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}

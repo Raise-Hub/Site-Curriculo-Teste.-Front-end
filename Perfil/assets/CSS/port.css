@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(186, 187, 187);
+}
+
+.topo {
+    background-image: url(/assets/CSS/imagens/code-2434271-1200x480.jpg);
+    /*background-color: rgb(204, 204, 204);*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*color: rgb(208, 209, 209);*/
+    padding-top: 100px;
+    padding-bottom: 192px;
+}
+
+#menu{
+
+    position: fixed;
+    width:100%;
+    z-index: 9; 
+    width: 100%;
+    margin-right: 250px;
+    background-color: rgb(8, 8, 8,0.8);
+
+}
+
+@font-face {
+    font-family: 'TituloCard';
+    src: url(/assets/CSS/fontes/Roboto-Bold.ttf)
+}
+@font-face{
+    font-family: 'SobreCard';
+    src: url(/assets/CSS/fontes/Roboto-Medium.ttf);
+}
+
+.card-sobre{
+    font-family: 'SobreCard';
+    
+}
+
+.card-title{
+    font-family: 'TituloCard';
+}
+
+.card-group {
+    margin-left: 45px;
+}
+
+#grupo-1{
+    margin-top: 80px;
+}
+
+#grupo-2{
+    margin-top: 20px;
+}
+
+#gif{
+    height: 100px;
+}
+
+#click{
+    margin-left: 100px;
+}

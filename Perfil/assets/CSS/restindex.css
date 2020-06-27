@@ -1,0 +1,67 @@
+.topo{
+    background-image: url(/assets/CSS/imagens/code-2434271-1200x480.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*color: rgb(208, 209, 209);*/
+    padding-top: 100px;
+    padding-bottom: 192px;
+}
+
+#menu{
+
+    position: fixed;
+    width:100%;
+    z-index: 9; 
+    width: 100%;
+    margin-right: 250px;
+    background-color: rgb(8, 8, 8,0.8);
+
+}
+
+#introduction {
+    background-color : rgba(208, 209, 209, 0.75);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.747);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+@font-face{
+    font-family: 'FonteMotivo';
+    src: url(/assets/CSS/fontes/Roboto-Medium.ttf);
+}
+
+#title {
+    font-family: 'FonteMotivo';
+}
+
+#text {
+    font-family: 'FonteMotivo';
+}
+
+#img{
+    /*height: 150px;*/
+   /* width: auto;
+    max-width: 300px;
+    max-height: 300px;*/
+    position: auto;
+    margin-left: 180px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.747);
+    margin-top: 40px;
+    
+}
+
+#title{
+    margin-left: 300px;
+}
+
+#link{
+    margin-left: 380px;
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
